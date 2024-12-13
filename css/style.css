@@ -1,0 +1,66 @@
+/* Add styles for the menu buttons */
+.sidenav p a button {
+  background-color: #add8e6; /* Light blue background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  width: 100%; /* Make the button take up the full width */
+  padding: 10px; /* Add some padding */
+  text-align: left; /* Align text to the left */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Make the anchor a block element */
+  font-family: 'Roboto', sans-serif; /* Use a modern sans-serif font */
+  font-weight: bold; /* Bold text */
+  letter-spacing: 1px; /* Add some space between the letters */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Remove underline from the links in the sidenav */
+.sidenav p a {
+  text-decoration: none; /* Ensure there is no underline */
+  color: inherit; /* Inherit the color from parent */
+}
+
+/* Remove underline from links when hovered */
+.sidenav p a:hover {
+  text-decoration: none; /* Ensure there is no underline on hover */
+  background-color: #87ceeb; /* Darker light blue on hover */
+  transform: scale(1.05); /* Slight zoom effect when hovered */
+}
+
+/* Remove underline from links when clicked (active) */
+.sidenav p a:active {
+  text-decoration: none; /* Remove underline when active */
+  background-color: #add8e6; /* Light blue background color when clicked */
+}
+
+/* Add styles for the login button */
+#myBtn, .btn-success.btn-block {
+  background-color: #003366; /* Blue color for login button */
+  border-color: #003366; /* Blue border color for login button */
+}
+
+#myBtn:hover, .btn-success.btn-block:hover {
+  background-color: #003366; /* Darker blue on hover */
+  border-color: #104e8b; /* Darker blue border on hover */
+}
+
+#myBtn:active, .btn-success.btn-block:active {
+  background-color: #87ceeb; /* Light blue background color when clicked */
+  border-color: #87ceeb; /* Light blue border color when clicked */
+}
+
+/* Style for the "Keren Aprilia" text in footer */
+footer marquee {
+  font-size: 24px; /* Larger font size */
+  color: white; /* Dark blue color */
+  font-family: 'Lobster', cursive; /* Elegant cursive font for stylish look */
+  font-weight: normal; /* Use normal weight */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Add stronger text shadow */
+  letter-spacing: 3px; /* Increase letter spacing for effect */
+  padding: 5px 0;
+}
+
+footer {
+  background-color: #add8e6; /* Light blue background color */
+  padding: 15px;
+}
